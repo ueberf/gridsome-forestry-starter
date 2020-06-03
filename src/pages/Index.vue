@@ -2,8 +2,7 @@
   <Layout>
     <div class="container">
       <Hero />
-      <div class="" v-html= "settings.featured_posts">
-      </div>
+      <h1>{{settings.featured_posts}}</h1>
 
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>
