@@ -30,5 +30,16 @@ fields:
 - type: boolean
   name: dark_mode
   label: Dark mode
+- name: featured_posts
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: projects
+  label: Featured Posts
+  description: A sortable list of curated posts to show on the front page
 pages:
 - data/theme.json
